@@ -1,0 +1,111 @@
+.ticket-container {
+  margin: auto;
+  margin-top: 70px;
+  margin-left: 20%;
+  width: fit-content;
+  z-index: -2;
+  position: relative;
+  border-collapse: collapse;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ticket-box {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #153e90;
+  padding: 5px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.ticket-ball {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  color: black;
+  border-radius: 50%;
+  background-color: yellow;
+  background-image: -webkit-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.3) 0%,
+    transparent 100%
+  );
+  background-image: -moz-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.3) 0%,
+    transparent 100%
+  );
+  background-image: -o-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.3) 0%,
+    transparent 100%
+  );
+  background-image: -ms-linear-gradient(
+    -45deg,
+    rgba(255, 255, 220, 0.3) 0%,
+    transparent 100%
+  );
+  box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -1;
+}
+
+.ticket-number {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  right: 10px;
+  border-radius: 80%;
+  text-align: center;
+  background-color: #fbf4f9;
+  font-family: "Playfair Display", serif;
+}
+
+.cross {
+  background-image: url("../../icons/cross.ico");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrong {
+  background-color: grey;
+}
+
+.ticket-btn {
+  position: absolute;
+}
+
+.ticket-box .code {
+  font-size: 20px;
+}
+
+.claim-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.calledNumber {
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  font-family: "Press Start 2P", cursive;
+  position: static;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.gr-mainDiv .title {
+  font-family: "Redressed", cursive;
+}
